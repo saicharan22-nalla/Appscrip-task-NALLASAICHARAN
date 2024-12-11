@@ -1,0 +1,117 @@
+.footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 50px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-top {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .subscribe,
+  .contact {
+    width: 30%;
+  }
+  
+  .subscribe h2,
+  .contact h2 {
+    margin-bottom: 15px;
+  }
+  
+  .input-group {
+    display: flex;
+  }
+  
+  .input-group input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    width: 80%;
+    margin-right: 20px;
+  }
+  
+  .input-group button {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: whitesmoke;
+    font-weight: 800;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-family:"Simplon Norm" ;
+
+ 
+     }
+
+      .currency-selector {
+        margin-top: 20px;
+      }
+      
+      .currency-selector button {
+        background-color: transparent;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+      }
+      
+      .footer-bottom {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+      }
+      
+      .footer-bottom > div {
+        width: 30%;
+      }
+      
+      .footer-bottom h2 {
+        margin-bottom: 20px;
+      }
+      
+      .footer-bottom ul {
+        list-style: none;
+        padding: 0;
+      }
+      
+      .footer-bottom ul li {
+        margin-bottom: 10px;
+      }
+      
+      .footer-bottom ul li a {
+        color: #fff;
+        text-decoration: none;
+      }
+      
+      .social-icons {
+        list-style: none;
+        padding: 0;
+        display: flex;
+      }
+      
+      .social-icons li {
+        margin-right: 10px;
+      }
+      
+      .social-icons li a {
+        color: #fff;
+      }
+      
+      .payment-methods {
+        margin-top: 20px;
+      }
+      
+      .payment-methods img {
+        margin-right: 10px;
+        max-width: 30px;
+      }
+      
+      .copyright {
+        margin-top: 50px;
+        text-align: center;
+      }
